@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" Copyright© 2023-2025 LinuxUsersLinuxMint
-LinuxUsersLinuxMint Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-LinuxUsersLinuxMint Calcutator All Rights Reserved under the GPL(General Public License).
-Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
-A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
+""" Copyright© 2023-2026 OpenSoftware-World
+OpenSoftware-World Calculator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+OpenSoftware-World Calculator All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GitHub da yayınlanmaktadır Görüntülemek için: https://github.com/OpenSoftware-World/OpenSoftware-World-Calculator
+A Copy of This Software is published on GitHub To view: https://github.com/OpenSoftware-World/OpenSoftware-World-Calculator """
 
 import os, platform
 from Lib.Basic_Maths.Basic_Maths import *
@@ -82,17 +82,17 @@ while True:
         else:
             error_msg(error_dialog,"","")
     elif command == "2" or command == "about" or command == "About" or command == "hakkında" or command == "Hakkında" or command == "info" or command == "Info":
-            print("LinuxUsersLinuxMint-Calculator CLI(Command Line Interface) LICENCE=GPL2")
+            print("OpenSoftware-World-Calculator CLI(Command Line Interface) LICENCE=GPL2")
     elif command == "3" or command == "exit" or command == "Exit" or command == "çıkış" or command == "Çıkış" or command == "quit" or command == "Quit":
         all_exit(dialog_switch=OFF,lang=lang,ExitSelectDialog="",userTimeDialog="",exitDialog="",errormsgDialog="",unit="")
     elif command == "4" or command == "help" or command == "Help" or command == "yardım" or command == "Yardım":
-        print("LinuxUsersLinuxMint-Calculator 2.3")
+        print("OpenSoftware-World-Calculator 2.3")
         print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
-        print("\nhttps://linuxuserslinuxmint.github.io/Documents/LinuxUsersLinuxMint-Calculator/2.3/linuxuserslinuxmint_calculator_doc.html")
+        print("\nhttps://opensoftware-world.com/Documents/OpenSoftware-World-Calculator/2.3/OpenSoftware-World_calculator_doc.html")
     elif command == "5" or command == "git-address" or command == "Git-Address" or command == "git adresi" or command == "Git Adresi":
-        print("GitHub Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator")
+        print("GitHub Link: https://github.com/OpenSoftware-World/OpenSoftware-World-Calculator")
     elif command == "6" or command == "web-site" or command == "Web-Site" or command == "web sitesi" or command == "Web Sitesi":
-        print("https://linuxuserslinuxmint.github.io")
+        print("https://opensoftware-world.com")
     elif command == "7" or command == "ver" or command == "Ver" or command == "version" or command == "Version":
         print(ver_msg)
     elif command == "8" or command == "licence" or command == "Licence" or command == "lisans" or command == "Lisans":
